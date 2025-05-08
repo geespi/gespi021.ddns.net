@@ -1,0 +1,30 @@
+main {
+height:100px;
+margin: 10px auto;
+width:1000px;
+}
+
+main div {
+border-bottom: 1px solid black;
+height: 30px;
+margin: 5px 0px;
+}
+
+main div span{
+padding: 3px;
+display: inline-block;
+width: 85px;
+font-size: 14px;
+box-sizing: border-box;
+border-right: 1px solid black;
+}
+
+main div span:nth-child(4){
+width: 15px;
+}
+
+main div span:nth-child(5){
+width: 125px;
+}
+
+
